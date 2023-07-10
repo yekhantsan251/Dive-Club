@@ -1,1 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
 
+body {
+    background-image: url(./images/download\ \(7\).jpg);
+    object-fit: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+nav div .collapse a:hover {
+    color: white;
+}
+
+.dive_club {
+    padding: 5% 0 5% 20%;
+}
+
+.lorem {
+    padding: 0 0 8% 15%;
+}
+
+.three_img img {
+    border-radius: 1%;
+    transition: 0.5s;
+    filter: brightness(0.7);
+}
+
+.three_img img:hover {
+    transform: translateY(-15px);
+    filter: brightness(1.0);
+    box-shadow: 10px 10px 20px rgb(37, 37, 37);
+}
+
+.three_img img::after {
+    transition: 1s;
+}
